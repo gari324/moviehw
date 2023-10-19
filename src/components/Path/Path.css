@@ -1,0 +1,11 @@
+.path-container {
+    width: 100%;
+    padding: 14px 10%;
+    display: flex;
+    background-color: #353535;
+    color: white;
+}
+
+.path-container a {
+    color: white;
+}

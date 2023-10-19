@@ -1,0 +1,23 @@
+.actor-list {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 0px 20px;
+}
+
+.actor-list h1 {
+  width: 100%;
+  max-width: 1240px;
+  text-align: left;
+}
+
+.actor-list_cards {
+  width: 100%;
+  max-width: 1240px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 2rem;
+}
